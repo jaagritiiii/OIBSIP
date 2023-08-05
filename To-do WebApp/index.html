@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do WebApp</title>
+    <link href="styles.css" rel="stylesheet" >
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="greeting">What To-Do?</h1>
+        <div class="date-section">
+            <label for="taskDate">Enter the date:</label>
+            <input type="date" id="taskDate" required>
+        </div>
+        <div class="todo-section">
+            <h2>Today's Tasks <img src="pic.jpg" alt="logo">
+
+            </h2>
+            <div class="taskInput">
+             <input type="text" id="taskInput" placeholder="Add a new task...">
+             <button id="addTaskBtn">Add</button>
+        
+             <ul id="taskList"></ul>
+             <div class="completed-tasks-section" id="completedTasksSection">
+                <h2>Completed Tasks</h2>
+            </div>
+            <div class="wuhoo-message" id="wuhooMessage"></div>
+        </div>
+        
+         <script src="script.js"></script>
+        
+          
+</body>
+
+</html>
+
